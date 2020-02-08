@@ -57,7 +57,41 @@ CACHES = {
 }
 ```
 
+## 因Git有文件50M限制
+
+唐诗和宋诗两个DB文件方百度云盘中共享(下载后迁移到对应目录)
+
+tangshi.db 
+链接: https://pan.baidu.com/s/19v37ylRPDg_hRLsLreghAg 提取码: n8bc
+
+songshi.db 
+链接: https://pan.baidu.com/s/1JpPEMAcZwSY_oMuwomkLoA 提取码: dkm9 
+
+### 宋诗数据库地址
+```
+/chinese-poetry-admin/db/songshi.db 
+```
+
+### 唐诗数据库地址
+```
+/chinese-poetry-admin/db/tangshi.db 
+```
+
+
+PS：sqllite数据库查看工具
+```
+https://github.com/sqlitebrowser
+```
+
+
+
+
+## PyCharm CE版debug配置
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/9.png?raw=true)
+
+
 ## 目录结构
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/10.png?raw=true)
 
 ## 双数据库配置  settings.py
 ```
@@ -83,7 +117,18 @@ DATABASE_ROUTERS = ['poerty.database_router.DatabaseAppsRouter']
 
 ## API截图
 
+### API截图
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/1.png?raw=true)
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/2.png?raw=true)
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/3.png?raw=true)
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/4.png?raw=true)
+
+### HTTP POST截图
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/5.png?raw=true)
 
 ## Xadmin后台截图
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/6.png?raw=true)
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/7.png?raw=true)
+![](https://github.com/yky138495/chinese-poetry-admin/blob/master/img/8.png?raw=true)
 
 
