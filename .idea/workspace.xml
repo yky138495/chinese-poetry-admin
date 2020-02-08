@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="375327eb-cafb-4e17-bc64-eaef60d9108c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/.idea/miduspider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/songshi/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/apps/tangshi/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/author_song_sqllite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/author_tang_sqllite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/authors.song.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/authors.tang.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.1000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.10000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.100000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.101000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.102000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.103000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.104000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.105000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.106000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.107000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.108000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.109000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.11000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.110000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.111000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.112000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.113000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.114000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.115000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.116000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.117000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.118000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.119000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.12000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.120000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.121000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.122000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.123000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.124000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.125000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.126000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.127000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.128000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.129000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.13000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.130000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.131000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.132000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.133000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.134000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.135000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.136000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.137000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.138000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.139000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.14000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.140000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.141000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.142000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.143000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.144000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.145000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.146000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.147000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.148000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.149000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.15000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.150000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.151000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.152000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.153000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.154000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.155000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.156000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.157000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.158000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.159000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.16000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.160000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.161000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.162000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.163000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.164000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.165000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.166000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.167000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.168000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.169000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.17000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.170000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.171000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.172000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.173000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.174000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.175000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.176000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.177000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.178000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.179000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.18000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.180000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.181000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.182000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.183000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.184000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.185000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.186000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.187000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.188000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.189000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.19000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.190000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.191000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.192000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.193000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.194000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.195000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.196000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.197000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.198000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.199000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.2000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.20000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.200000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.201000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.202000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.203000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.204000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.205000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.206000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.207000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.208000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.209000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.21000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.210000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.211000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.212000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.213000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.214000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.215000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.216000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.217000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.218000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.219000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.22000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.220000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.221000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.222000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.223000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.224000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.225000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.226000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.227000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.228000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.229000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.23000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.230000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.231000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.232000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.233000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.234000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.235000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.236000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.237000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.238000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.239000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.24000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.240000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.241000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.242000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.243000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.244000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.245000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.246000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.247000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.248000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.249000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.25000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.250000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.251000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.252000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.253000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.254000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.26000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.27000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.28000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.29000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.3000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.30000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.31000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.32000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.33000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.34000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.35000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.36000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.37000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.38000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.39000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.4000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.40000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.41000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.42000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.43000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.44000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.45000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.46000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.47000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.48000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.49000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.5000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.50000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.51000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.52000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.53000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.54000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.55000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.56000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.57000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.58000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.59000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.6000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.60000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.61000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.62000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.63000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.64000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.65000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.66000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.67000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.68000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.69000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.7000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.70000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.71000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.72000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.73000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.74000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.75000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.76000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.77000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.78000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.79000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.8000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.80000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.81000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.82000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.83000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.84000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.85000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.86000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.87000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.88000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.89000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.9000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.90000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.91000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.92000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.93000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.94000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.95000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.96000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.97000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.98000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.song.99000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.1000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.10000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.11000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.12000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.13000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.14000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.15000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.16000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.17000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.18000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.19000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.2000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.20000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.21000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.22000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.23000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.24000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.25000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.26000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.27000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.28000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.29000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.3000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.30000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.31000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.32000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.33000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.34000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.35000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.36000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.37000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.38000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.39000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.4000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.40000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.41000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.42000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.43000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.44000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.45000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.46000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.47000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.48000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.49000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.5000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.50000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.51000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.52000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.53000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.54000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.55000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.56000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.57000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.6000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.7000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.8000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/data/poet.tang.9000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/goto_songshi_sqllite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/clientdata/goto_sqllite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/db/songci.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/db/songshi.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/db/tangshi.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/commands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/UEditorSnapscreen.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeCombox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/completeDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/customPluginDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/customToolbarDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/customizeDialogPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/customizeToolbarUIDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/editor_api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/filterRuleDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/highlightDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/jqueryCompleteDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/jqueryValidation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/multiDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/multiEditorWithOneInstance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/renderInTable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/resetDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/sectiondemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.ashx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/setWidthHeightDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/simpleDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/sortableDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/submitFormDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/textareaDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/_examples/uparsedemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/anchor/anchor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/alignicon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/alignicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/file-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/chart.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/bface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/cface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/fface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/tface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/wface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/yface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/gmap/gmap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/help/help.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/help/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/help/help.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/alignicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/insertframe/insertframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/link/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/map/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/map/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/music/music.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/music/music.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/music/music.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/preview/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/addimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/delimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/delimgH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/emptyH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/redo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/redoH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/scaleH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/size.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/undo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/undoH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/snapscreen/snapscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/dragicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/center_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/file-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/left_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/none_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/right_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/webapp/webapp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/imageUploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/addimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/deletedisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/deleteenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/listbackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/rotateleftdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/rotateleftenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/rotaterightdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/rotaterightenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/php/Uploader.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/php/action_crawler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/php/action_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/php/action_upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/php/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/php/controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/dialogbase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/anchor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/button-bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cancelbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/charts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_v.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/dialog-title-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/fileScan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/highlighted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/icons-all.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/loaderror.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/lock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/pagebreak.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/sortable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/sparator_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/table-cell-align.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/tangram-colorpicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/toolbar_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/unhighlighted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/videologo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/word.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/wordpaste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/themes/iframe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/Uploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/ueditor.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/ueditor.parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/static/ueditor/ueditor.parse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/templates/ueditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/templates/ueditor_old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/test_try.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/DjangoUeditor/widgets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/.tx/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/adminx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/layout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/de_DE/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/de_DE/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/de_DE/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/de_DE/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/en/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/en/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/en/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/en/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/es_MX/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/es_MX/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/es_MX/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/es_MX/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/eu/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/eu/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/eu/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/eu/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/id_ID/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/id_ID/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/id_ID/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/id_ID/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/ja/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/ja/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/ja/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/ja/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/lt/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/lt/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/lt/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/lt/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/nl_NL/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/nl_NL/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/pl/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/pl/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/pl/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/pl/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/pt_BR/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/pt_BR/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/ru_RU/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/ru_RU/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/zh_Hans/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/zh_Hans/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/aggregation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/ajax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/bookmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/chart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/comments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/details.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/editable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/export.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/images.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/inline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/language.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/layout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/mobile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/multiselect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/passwords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/portal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/quickfilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/quickform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/refresh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/relate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/relfield.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/sitemenu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/sortablelist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/themes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/topnav.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/ueditor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/wizard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/plugins/xversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/sites.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/themes/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/themes/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/themes/bootstrap-xadmin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.page.dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.plugin.aggregation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.plugin.formset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.plugin.quickfilter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.plugins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.widget.editable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/css/xadmin.widget.select-transfer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.page.dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.page.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.page.list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.batch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.bookmark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.editable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.formset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.portal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.quick-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.quickfilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.revision.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.sortablelist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.plugin.themes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.responsive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.widget.datetime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.widget.multiselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.widget.select-transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/js/xadmin.widget.select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/autotype/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-modal/css/bootstrap-modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-modal/img/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modalmanager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.colorhelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.aggregate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.errorbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.fillbetween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.navigate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.threshold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/flot/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/load-image/load-image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/load-image/load-image.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2-spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_pt-PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2_locale_zh-hans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/select2/select2x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.legacy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/selectize/selectize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/snapjs/snap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/snapjs/snap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/static/xadmin/vendor/snapjs/snap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/auth/password_reset/complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/auth/password_reset/confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/auth/password_reset/done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/auth/password_reset/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/auth/password_reset/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/auth/user/add_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/auth/user/change_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/comm.top.setlang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/comm.top.theme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/comm.top.topnav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/modal_list.left_navbar.quickfilter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_form.before_fieldsets.wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_form.submit_line.wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.nav_form.search_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.nav_menu.bookmarks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.nav_menu.filters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.results_bottom.actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.results_top.charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.results_top.date_hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.exports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.layouts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.refresh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/blocks/model_list.top_toolbar.saveorder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/edit_inline/accordion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/edit_inline/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/edit_inline/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/edit_inline/one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/edit_inline/stacked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/edit_inline/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/edit_inline/tabular.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/filters/char.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/filters/checklist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/filters/date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/filters/fk_search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/filters/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/filters/number.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/filters/quickfilter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/filters/rel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/forms/transfer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/grids/thumbnails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/includes/box.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/includes/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/includes/sitemenu_accordion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/includes/sitemenu_default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/includes/submit_line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/includes/toggle_back.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/includes/toggle_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/layout/field_value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/layout/field_value_td.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/layout/fieldset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/layout/input_group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/layout/td-field.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/app_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/batch_change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/invalid_setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/model_dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/model_delete_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/model_delete_selected_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/model_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/model_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/model_history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/model_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/quick_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/quick_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/recover_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/recover_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/revision_diff.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/views/revision_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/widgets/addform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/widgets/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/widgets/chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/widgets/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templates/xadmin/widgets/qbutton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/templatetags/xadmin_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/vendors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/dashboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/detail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/edit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/views/website.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/extra_apps/xadmin/widgets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/miduspider/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/miduspider/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/miduspider/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/miduspider/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miduspider/util/mysqlutils.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/songshi/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
+              <folding>
+                <element signature="e#468#507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/tangshi/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="e#1#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/songshi/adminx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="e#41#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>miduspider</find>
+      <find>midu</find>
+      <find>tangshi</find>
+      <find>tangshi.db</find>
+      <find>click_count</find>
+      <find>DATABASE_ROUTERS</find>
+      <find>INSTALLED_APPS</find>
+      <find>xa</find>
+      <find>ROOT_URLCONF</find>
+      <find>&quot;id&quot;,</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/poerty/wsgi.py" />
+        <option value="$PROJECT_DIR$/apps/tangshi/filters.py" />
+        <option value="$PROJECT_DIR$/apps/songshi/filters.py" />
+        <option value="$PROJECT_DIR$/apps/songshi/serializers.py" />
+        <option value="$PROJECT_DIR$/poerty/database_router.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/apps/tangshi/views.py" />
+        <option value="$PROJECT_DIR$/apps/tangshi/serializers.py" />
+        <option value="$PROJECT_DIR$/poerty/urls.py" />
+        <option value="$PROJECT_DIR$/apps/songshi/views.py" />
+        <option value="$PROJECT_DIR$/poerty/settings.py" />
+        <option value="$PROJECT_DIR$/apps/tangshi/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/songshi/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/songshi/models.py" />
+        <option value="$PROJECT_DIR$/apps/tangshi/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="112" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="715" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="poerty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poerty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poerty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poerty" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poerty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poerty" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="songshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poerty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poerty" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="tangshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poerty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poerty" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poerty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poerty" type="462c0819:PsiDirectoryNode" />
+              <item name="poerty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poerty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poerty" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Debug" type="PythonConfigurationType" factoryName="Python">
+      <module name="poerty" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="375327eb-cafb-4e17-bc64-eaef60d9108c" name="Default Changelist" comment="" />
+      <created>1581128169612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581128169612</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="112" y="23" width="1280" height="715" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18665607" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905295" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967898" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#46#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/songshi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientdata/author_song_sqllite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/django/db/backends/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4905">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/songshi/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#46#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/songshi/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/xadmin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poerty/database_router.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poerty/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/songshi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/songshi/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poerty/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#642#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poerty/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="94" column="33" lean-forward="true" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+          <folding>
+            <element signature="e#311#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#41#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/songshi/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#41#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/songshi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="e#468#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tangshi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#1#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
